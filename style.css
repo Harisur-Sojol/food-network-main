@@ -1,29 +1,32 @@
 body{
-    font-family: 'Poppins', sans-serif
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(orange,tomato);
     color: white;
+    display: inline-block;
     font-weight: 400;
     padding: 14px 15px;
     border-radius: 20px;
+    margin-top: 20px;
 }
 .color{
     color: orange;
 }
-section{
+section.first-food-section{
     display: flex;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
     align-items: center;
 }
-.left-side-content h1{
+.left-side-content h1 {
     font-size: 50px;
+    text-transform: capitalize;
 }
 .food{
     width: 50%;
     padding-left: 10%;
-    padding-top: 7%;
 }
 .food img{
     width: 80%;
@@ -44,4 +47,135 @@ p{
 }
 .bg-image{
     background-image: url(images/shapes/7.png);
+    display: flex;
+    align-items: center;
 }
+.recipies{
+    padding: 50px 100px;
+    background: url(images/shapes/Frame\ 57.jpg);
+    background-size: cover;
+}
+.recipies .recipies-header{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.recipies .recipies-header h1{
+    text-transform: capitalize;
+    font-size: 25px;
+    color: #828282;
+}
+.recipies .recipies-header p {
+    font-size: 17px;
+    color: #828282;
+    width: 67%;
+    margin: 0 auto;
+}
+.recipies-contents{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.recipies-box{
+    width: 400px;
+    background: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.137);
+    padding: 20px;
+    border-radius: 30px;
+    height: 460px;
+    margin-right: 10px;
+}
+.recipies-box img{
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+}
+.recipies-box h3{
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.recipies-box p{
+    font-size: 15px;
+    width: 75%;
+    line-height: 25px;
+
+}
+.recipies-header{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.social-media-info1 h1 h2 h3{
+    color: black;
+    text-transform: capitalize;
+    font-weight: 900;
+}
+.media-box {
+    padding: 50px 100px;
+}
+.media-box2 {
+    display: flex;
+    text-align: center;
+    box-shadow: 1px 5px 10px 1px #00000038;
+    border-radius: 20px;
+}
+.social-media-info1{
+    padding-left: 15%;
+    
+
+}
+.social-media-info2{
+    padding-left: 15%;
+    
+
+}
+.social-media-info3{
+    padding-left: 15%;
+}
+.footer-color{
+    color: yellow;
+}
+.footer-color2{
+    color: gray;
+}
+.part4{
+    height: 200px;
+    background-color: black;
+    text-align: center;
+}
+.part4 h1 {
+    padding-top: 50px;
+}
+.booking-section{
+    text-align: center;
+    padding: 50px 0;
+}
+.booking-section h1{
+    font-size: 40px;
+    text-transform: capitalize;
+    color: #000;
+}
+.booking-section h1 span{
+    color: #fe4b2e;
+}
+.booking-section form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    margin: auto;
+}
+.booking-section form input{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 15px 25px;
+    border: 1px solid #5b5b5b;
+    background:#ffffff;
+}
+.booking-section form button{
+    padding: 15px 30px;
+    border-radius: 30px;
+    background: linear-gradient(120deg,#fe4b2e,#fc8f49);
+   border: none;
+   color: #fff;
+   text-transform: capitalize;
+   }
