@@ -1,0 +1,47 @@
+body{
+    font-family: 'Poppins', sans-serif
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    color: white;
+    font-weight: 400;
+    padding: 14px 15px;
+    border-radius: 20px;
+}
+.color{
+    color: orange;
+}
+section{
+    display: flex;
+    margin-bottom: 150px;
+    align-items: center;
+}
+.left-side-content h1{
+    font-size: 50px;
+}
+.food{
+    width: 50%;
+    padding-left: 10%;
+    padding-top: 7%;
+}
+.food img{
+    width: 80%;
+}
+h1{
+   color: rgb(97, 95, 95);
+}
+p{
+    color: rgb(168, 160, 160);
+}
+.mine{
+    width: 50%;
+    padding-right: 15%;
+}
+.mine img{
+    width: 65%;
+    padding-left: 27%;
+}
+.bg-image{
+    background-image: url(images/shapes/7.png);
+}
